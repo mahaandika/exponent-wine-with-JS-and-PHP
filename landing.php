@@ -137,7 +137,7 @@
         <div class="review-detail row row-cols-1 row-cols-md-3 g-4">
           <div class="col card-first">
             <div class="card h-100">
-              <div class="card-body">
+              <div class="card-body text-bg-dark">
                 <h5 class="card-title">King Of King</h5>
                 <p class="card-text">
                   The Exponent Wine delivers perfection in every bottle. Simply
@@ -153,7 +153,7 @@
           </div>
           <div class="col card-second">
             <div class="card h-100">
-              <div class="card-body">
+              <div class="card-body text-bg-dark">
                 <h5 class="card-title">Agung Andika</h5>
                 <p class="card-text">
                   Incredible wines with exceptional taste. Highly recommended!
@@ -168,7 +168,7 @@
           </div>
           <div class="col card-third">
             <div class="card h-100">
-              <div class="card-body">
+              <div class="card-body text-bg-dark">
                 <h5 class="card-title">Widya Anastasya</h5>
                 <p class="card-text">
                   Absolutely love The Exponent Wine. A must-try for all wine

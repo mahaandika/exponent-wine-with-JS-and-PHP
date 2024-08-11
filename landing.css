@@ -94,10 +94,20 @@
   margin-top: 2rem;
 }
 
-.card-body:hover {
+.reservation-btn button {
+  font-family: "Poppins", sans-serif;
+  width: 25rem;
+  height: 3.5rem;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  background-color: transparent;
+}
+
+.reservation-btn button:hover {
   background-color: black;
   color: white;
-  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 
 @media screen and (max-width: 1200px) {

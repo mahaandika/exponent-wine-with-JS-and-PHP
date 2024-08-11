@@ -94,6 +94,12 @@
   margin-top: 2rem;
 }
 
+.card-body:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
 @media screen and (max-width: 1200px) {
   .about-paraf p {
     font-size: 1em;
@@ -166,6 +172,10 @@
 
 @media screen and (max-width: 500px) {
   .about-paraf2 {
+    display: none;
+  }
+
+  .card-first {
     display: none;
   }
 }

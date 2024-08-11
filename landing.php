@@ -62,8 +62,8 @@
       </section>
     </header>
 
-    <main class="container">
-      <section class="about-us">
+    <main>
+      <section class="about-us container">
         <h1 class="about-title">the exponent wine</h1>
         <div class="about-detail row gx-5 gy-3">
           <div class="about-img col-lg-5">
@@ -135,55 +135,57 @@
       <section class="review container">
         <h1 class="review-title">what people say about us</h1>
         <div class="review-detail row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
+          <div class="col card-first">
             <div class="card h-100">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">King Of King</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  The Exponent Wine delivers perfection in every bottle. Simply
+                  outstanding
                 </p>
               </div>
               <div class="card-footer">
                 <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
+                  >Last updated 1 month ago</small
                 >
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col card-second">
             <div class="card h-100">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Agung Andika</h5>
                 <p class="card-text">
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
+                  Incredible wines with exceptional taste. Highly recommended!
                 </p>
               </div>
               <div class="card-footer">
                 <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
+                  >Last updated 1 week ago</small
                 >
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col card-third">
             <div class="card h-100">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Widya Anastasya</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
+                  Absolutely love The Exponent Wine. A must-try for all wine
+                  lovers!
                 </p>
               </div>
               <div class="card-footer">
                 <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
+                  >Last updated 3 days ago</small
                 >
               </div>
             </div>
+          </div>
+        </div>
+        <div class="reservation-btn">
+          <div class="col d-flex flex-row mt-5 justify-content-center">
+            <button>make a reservation</button>
           </div>
         </div>
       </section>

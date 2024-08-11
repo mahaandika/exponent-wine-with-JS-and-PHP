@@ -62,8 +62,8 @@
       </section>
     </header>
 
-    <main class="">
-      <section class="about-us container">
+    <main class="container">
+      <section class="about-us">
         <h1 class="about-title">the exponent wine</h1>
         <div class="about-detail row gx-5 gy-3">
           <div class="about-img col-lg-5">
@@ -128,6 +128,59 @@
               our loyal customers, who choose our wines to celebrate their most
               cherished moments.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="review">
+        <h1 class="review-title">what people say about us</h1>
+        <div class="review-detail row gx-3">
+          <div class="col-lg-3">
+            <div class="card" style="width: 15rem">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card" style="width: 15rem">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card" style="width: 15rem">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card" style="width: 15rem">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

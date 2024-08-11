@@ -65,7 +65,7 @@
     <main class="">
       <section class="about-us container">
         <h1 class="about-title">the exponent wine</h1>
-        <div class="about-detail row gx-5">
+        <div class="about-detail row gx-5 gy-3">
           <div class="about-img col-lg-5">
             <div
               id="carouselExampleAutoplaying"
@@ -81,7 +81,7 @@
                 </div>
               </div>
               <button
-                class="carousel-control-prev"
+                class="carousel-control-prev btn-prev"
                 type="button"
                 data-bs-target="#carouselExampleAutoplaying"
                 data-bs-slide="prev"
@@ -93,7 +93,7 @@
                 <span class="visually-hidden">Previous</span>
               </button>
               <button
-                class="carousel-control-next"
+                class="carousel-control-next btn-next"
                 type="button"
                 data-bs-target="#carouselExampleAutoplaying"
                 data-bs-slide="next"
@@ -107,21 +107,21 @@
             </div>
           </div>
           <div class="col-lg-6 about-paraf">
-            <p class="mt-4">
+            <p class="about-paraf1">
               The Exponent Wine was born from a passion to blend tradition with
               innovation in winemaking. With a deep commitment to the art of
               wine crafting, we have grown into a respected name in the
               industry, delivering high-quality wines designed to enhance your
               most special moments.
             </p>
-            <p class="mt-5">
+            <p class="about-paraf2">
               At The Exponent Wine, quality is our top priority. From the
               vineyard to the bottling process, we adhere to the strictest
               quality control standards. This ensures that every bottle we
               deliver to you is a testament to our commitment to excellence and
               craftsmanship.
             </p>
-            <p class="mt-5">
+            <p class="about-paraf3">
               The Exponent Wine has received numerous international accolades,
               reflecting the exceptional quality of our products. We are also
               proud of the positive testimonials we consistently receive from

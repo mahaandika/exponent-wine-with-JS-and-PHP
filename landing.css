@@ -135,6 +135,8 @@
 
 .product-card {
   border: none;
+  background-color: #020001;
+  color: white;
 }
 
 @media screen and (max-width: 1200px) {

@@ -198,12 +198,16 @@
               <div class="card h-100 product-card">
                 <img src="img/wine10.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Stella Rosa</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    A harmonious blend of rich plum and cherry flavors with a
+                    velvety finish, Stella Rosa is a wine that sings on the
+                    palate. It pairs beautifully with fine dining or a quiet
+                    night in.
                   </p>
+                  <div class="price d-flex justify-content-center">
+                    <button>discover</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -212,11 +216,15 @@
               <div class="card h-100 product-card">
                 <img src="img/wine13.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Maria Ana</h5>
                   <p class="card-text">
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
+                    Warm and inviting, Maria Ana offers a smooth palate with
+                    flavors of dark chocolate, blackberries, white grapes and a
+                    hint of smoke. Its a comforting choice for cozy gatherings
                   </p>
+                  <div class="price d-flex justify-content-center">
+                    <button>discover</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -225,11 +233,16 @@
               <div class="card h-100 product-card">
                 <img src="img/wine12.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Marques Casa Concha</h5>
                   <p class="card-text">
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
+                    Inspired by the golden moonlit nights, Marques Casa Concha
+                    is a bright, aromatic white wine with hints of citrus,
+                    honey, and floral notes. A delightful companion to seafood
+                    and light fare.
                   </p>
+                  <div class="price d-flex justify-content-center">
+                    <button>discover</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -238,11 +251,16 @@
               <div class="card h-100 product-card">
                 <img src="img/wine9.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Maison Castel</h5>
                   <p class="card-text">
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
+                    A graceful rosé with a delicate balance of strawberry and
+                    rose petal notes, Maison Castel offers a refreshing and
+                    light finish. Ideal for warm afternoons and romantic
+                    evenings.
                   </p>
+                  <div class="price d-flex justify-content-center">
+                    <button>discover</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -251,11 +269,16 @@
               <div class="card h-100 product-card">
                 <img src="img/wine7.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Chateau Morin</h5>
                   <p class="card-text">
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
+                    A luxurious blend of ripe red berries and subtle oak,
+                    chateau Morin envelops the senses with its smooth texture
+                    and lingering finish. Perfect for an elegant evening or a
+                    special celebration.
                   </p>
+                  <div class="price d-flex justify-content-center">
+                    <button>discover</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -264,12 +287,16 @@
               <div class="card h-100 product-card">
                 <img src="img/wine8.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Winetage Otterazu</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
+                    Winetage Otterazu is an exquisite red blend that combines
+                    the best of old-world elegance with modern winemaking. With
+                    layers of black currant, leather, and earth, its a wine for
+                    the connoisseur.
                   </p>
+                  <div class="price d-flex justify-content-center">
+                    <button>discover</button>
+                  </div>
                 </div>
               </div>
             </div>

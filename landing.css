@@ -53,6 +53,7 @@
   background-color: black;
   color: white;
   text-transform: capitalize;
+  transition: all 0.5s;
 }
 
 .see-more:hover {
@@ -101,6 +102,7 @@
   font-size: 1.2em;
   text-transform: capitalize;
   background-color: transparent;
+  transition: all 0.5s;
 }
 
 .reservation-btn button:hover {
@@ -137,6 +139,25 @@
   border: none;
   background-color: #020001;
   color: white;
+}
+
+.price button {
+  font-family: "Poppins", sans-serif;
+  width: 15rem;
+  height: 3.5rem;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+  background-color: transparent;
+  border: 1px solid #d29a5a;
+  transition: all 0.5s;
+}
+
+.price button:hover {
+  background-color: #d29a5a;
+  transition: all 0.5s;
 }
 
 @media screen and (max-width: 1200px) {

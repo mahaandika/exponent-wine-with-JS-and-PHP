@@ -161,7 +161,12 @@
 }
 
 .contact {
-  background-color: aqua;
+  background-image: url("img/");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact-title {
@@ -177,6 +182,48 @@
   text-align: center;
   text-wrap: wrap;
   font-size: 1.15em;
+}
+
+.reach-us {
+}
+
+.reach-title {
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  padding-top: 1.8rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.reach-icon1 i {
+  font-size: 25px;
+}
+
+.reach-icon1 a {
+  width: 20rem;
+  padding-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.reach-icon2 i {
+  font-size: 20px;
+}
+
+.reach-icon2 a {
+  padding-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.reach-icon3 i {
+  font-size: 23px;
+}
+
+.reach-icon3 a {
+  padding-left: 15px;
+  text-decoration: none;
+  color: black;
 }
 
 @media screen and (max-width: 1200px) {

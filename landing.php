@@ -222,6 +222,27 @@ $products = show("SELECT * FROM product");
           </div>
         </section>
       </section>
+
+      <section class="contact">
+        <div class="container">
+          <h1 class="contact-title">contact us</h1>
+          <div class="contact-desc pt-3 pb-3">
+            <p>
+              Got questions or want to book a table? Reach us by phone, email,
+              or through our online form. Follow us on social media for updates
+              and events. We can’t wait to see you at The Brass in Renon, Bali!
+            </p>
+          </div>
+          <div class="reach-us row row-cols-1 row-cols-md-2">
+            <div class="map col">
+              <h6>reach us through</h6>
+            </div>
+            <div class="social col">
+              <h6>social network</h6>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script src="./bootstrap/js/bootstrap.bundle.js"></script>

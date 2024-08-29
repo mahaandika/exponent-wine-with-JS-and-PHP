@@ -160,6 +160,25 @@
   transition: all 0.5s;
 }
 
+.contact {
+  background-color: aqua;
+}
+
+.contact-title {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.contact-desc p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  text-wrap: wrap;
+  font-size: 1.15em;
+}
+
 @media screen and (max-width: 1200px) {
   .about-paraf p {
     font-size: 1em;

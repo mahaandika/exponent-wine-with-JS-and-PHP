@@ -281,6 +281,12 @@ $products = show("SELECT * FROM product");
           </div>
         </section>
       </section>
+
+      <footer>
+        <P class="foot-title text-light fs-1 fst-italic"
+          >𝐄𝐗𝐏 <span class="fw-medium fs-4">𝘄𝗶𝗻𝗲</span></P
+        >
+      </footer>
     </main>
 
     <script src="./bootstrap/js/bootstrap.bundle.js"></script>

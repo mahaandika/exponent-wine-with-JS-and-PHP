@@ -233,10 +233,22 @@
   padding-left: 15px;
   text-decoration: none;
   color: white;
+  padding-bottom: 3rem;
 }
 
 iframe {
   border: none;
+}
+
+footer {
+  background-color: #110e0b;
+  margin-bottom: none;
+}
+
+.foot-title {
+  text-align: center;
+  padding: 2rem 0;
+  margin-bottom: -16px;
 }
 
 @media screen and (max-width: 1200px) {

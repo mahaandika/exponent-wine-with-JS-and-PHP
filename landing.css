@@ -160,13 +160,17 @@
   transition: all 0.5s;
 }
 
-.contact {
-  background-image: url("img/");
+.contact-bg {
+  background-image: url("img/banner9.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.contact {
+  backdrop-filter: brightness(50%);
 }
 
 .contact-title {
@@ -175,6 +179,8 @@
   font-weight: 800;
   text-align: center;
   padding-top: 6rem;
+  color: white;
+  position: relative;
 }
 
 .contact-desc p {
@@ -182,9 +188,7 @@
   text-align: center;
   text-wrap: wrap;
   font-size: 1.15em;
-}
-
-.reach-us {
+  color: white;
 }
 
 .reach-title {
@@ -193,37 +197,46 @@
   padding-top: 1.8rem;
   padding-bottom: 2rem;
   text-align: center;
+  color: white;
+  filter: brightness(100%);
 }
 
 .reach-icon1 i {
   font-size: 25px;
+  color: white;
 }
 
 .reach-icon1 a {
   width: 20rem;
   padding-left: 15px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .reach-icon2 i {
   font-size: 20px;
+  color: white;
 }
 
 .reach-icon2 a {
   padding-left: 15px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .reach-icon3 i {
   font-size: 23px;
+  color: white;
 }
 
 .reach-icon3 a {
   padding-left: 15px;
   text-decoration: none;
-  color: black;
+  color: white;
+}
+
+iframe {
+  border: none;
 }
 
 @media screen and (max-width: 1200px) {

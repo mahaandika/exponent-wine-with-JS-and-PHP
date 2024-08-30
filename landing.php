@@ -227,54 +227,59 @@ $products = show("SELECT * FROM product");
         </section>
       </section>
 
-      <section class="contact">
-        <div class="container">
-          <h1 class="contact-title">contact us</h1>
-          <div class="contact-desc pt-3 pb-3">
-            <p>
-              Got questions or want to book a table? Reach us by phone, email,
-              or through our online form. Follow us on social media for updates
-              and events. We can’t wait to see you at The Brass in Renon, Bali!
-            </p>
+      <section class="contact-bg">
+        <section class="contact">
+          <div class="container">
+            <h1 class="contact-title">contact us</h1>
+            <div class="contact-desc pt-3 pb-3">
+              <p>
+                Got questions or want to book a table? Reach us by phone, email,
+                or through our online form. Follow us on social media for
+                updates and events. We can’t wait to see you at The Brass in
+                Renon, Bali!
+              </p>
+            </div>
+
+            <div class="reach-us">
+              <h4 class="reach-title">reach us through</h4>
+
+              <div class="map d-flex justify-content-center">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.694055533449!2d115.21638447576126!3d-8.625341687666149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23f13f65c8643%3A0x4d8d8205fccbd904!2sGg.%20Mekar%20Sari%20No.20%2C%20Tonja%2C%20Kec.%20Denpasar%20Utara%2C%20Kota%20Denpasar%2C%20Bali%2080239!5e0!3m2!1sen!2sid!4v1724903773635!5m2!1sen!2sid"
+                  width="350"
+                  height="250"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+
+              <div class="reach-icon1 d-flex justify-content-center pt-4">
+                <i class="fa-solid fa-location-dot"></i>
+                <a
+                  href="https://maps.app.goo.gl/N2ayiWUz8GTygQyq8"
+                  class="location-link"
+                  target="_blank"
+                  >Gg. Mekar Sari No.20, Tonja, Kec. Denpasar Utara, Kota
+                  Denpasar, Bali 80239</a
+                >
+              </div>
+
+              <div class="reach-icon2 d-flex justify-content-center pt-4">
+                <i class="fa-solid fa-phone phone"></i>
+                <a href="tel:(+62)82340506408">(+62) 823 - 4050 - 6408</a>
+              </div>
+
+              <div class="reach-icon3 d-flex justify-content-center pt-4">
+                <i class="fa-solid fa-envelope mail"></i>
+                <a href="mailto:expreservation@gmail.com"
+                  >reservation@exp.com</a
+                >
+              </div>
+            </div>
           </div>
-
-          <div class="reach-us">
-            <h4 class="reach-title">reach us through</h4>
-
-            <div class="map d-flex justify-content-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.694055533449!2d115.21638447576126!3d-8.625341687666149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23f13f65c8643%3A0x4d8d8205fccbd904!2sGg.%20Mekar%20Sari%20No.20%2C%20Tonja%2C%20Kec.%20Denpasar%20Utara%2C%20Kota%20Denpasar%2C%20Bali%2080239!5e0!3m2!1sen!2sid!4v1724903773635!5m2!1sen!2sid"
-                width="350"
-                height="250"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-
-            <div class="reach-icon1 d-flex justify-content-center pt-4">
-              <i class="fa-solid fa-location-dot"></i>
-              <a
-                href="https://maps.app.goo.gl/N2ayiWUz8GTygQyq8"
-                class="location-link"
-                target="_blank"
-                >Gg. Mekar Sari No.20, Tonja, Kec. Denpasar Utara, Kota
-                Denpasar, Bali 80239</a
-              >
-            </div>
-
-            <div class="reach-icon2 d-flex justify-content-center pt-4">
-              <i class="fa-solid fa-phone phone"></i>
-              <a href="tel:(+62)82340506408">(+62) 823 - 4050 - 6408</a>
-            </div>
-
-            <div class="reach-icon3 d-flex justify-content-center pt-4">
-              <i class="fa-solid fa-envelope mail"></i>
-              <a href="mailto:expreservation@gmail.com">reservation@exp.com</a>
-            </div>
-          </div>
-        </div>
+        </section>
       </section>
     </main>
 

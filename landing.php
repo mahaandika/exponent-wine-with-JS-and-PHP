@@ -286,6 +286,44 @@ $products = show("SELECT * FROM product");
         <P class="foot-title text-light fs-1 fst-italic"
           >𝐄𝐗𝐏 <span class="fw-medium fs-4">𝘄𝗶𝗻𝗲</span></P
         >
+        <div class="foot-location d-flex justify-content-center">
+          <i class="fa-solid fa-location-dot"></i>
+          <a
+            href="https://maps.app.goo.gl/N2ayiWUz8GTygQyq8"
+            class="location-link"
+            target="_blank"
+            >Gg. Mekar Sari No.20, Tonja, Kec. Denpasar Utara, Bali
+          </a>
+        </div>
+
+        <div class="foot-icon d-flex justify-content-center">
+          <a href="https://www.facebook.com/agungandika.agungandika.35/"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://api.whatsapp.com/send?phone=6282340506408"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+          <a href="https://www.instagram.com/mahaandika_/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.tiktok.com/@k1ng.of.k1ng"
+            ><i class="fa-brands fa-tiktok"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/i-gusti-agung-andika/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://maps.app.goo.gl/N2ayiWUz8GTygQyq8"
+            ><i class="fa-solid fa-map-location-dot"></i
+          ></a>
+        </div>
+
+        <div class="foot-copy d-flex justify-content-center">
+          <p>
+            <span class="copy"><i class="fa-regular fa-copyright"></i></span>
+            2024 the exponent wine. all right reserved. developed by
+            <span class="developer">agung andika</span>
+          </p>
+        </div>
       </footer>
     </main>
 

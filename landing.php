@@ -11,7 +11,7 @@ $products = show("SELECT * FROM product");
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>The Exponent Wine</title>
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="landing.css" />
     <script
@@ -218,7 +218,7 @@ $products = show("SELECT * FROM product");
                 </div>
 
                 <div class="price d-flex justify-content-center">
-                  <button>discover</button>
+                  <a href="detail.php?id=<?=$product["id"]?>"><button>discover</button></a>
                 </div>
                 <div class="back">
                   <img src="img/<?= $product["gambar"] ?>" alt="..." />

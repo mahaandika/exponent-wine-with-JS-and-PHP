@@ -41,5 +41,13 @@ $product = show("SELECT * FROM product WHERE id = $id")[0];
         >𝐄𝐗𝐏 <span class="fw-medium fs-4">𝘄𝗶𝗻𝗲</span></P
       >
     </nav>
+
+    <main>
+      <section class="content">
+        <div class="title">
+          <h1><?= $product["nama"] ?></h1>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

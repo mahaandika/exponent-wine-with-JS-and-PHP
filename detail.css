@@ -5,6 +5,7 @@
 }
 
 .bread-nav a {
+  font-family: "Poppins", sans-serif;
   color: white;
   text-decoration: none;
   transition: all 0.5s;
@@ -26,4 +27,23 @@
 .breadcrumb-item + .breadcrumb-item::before {
   color: rgb(255 255 255);
   content: var(--bs-breadcrumb-divider, ">");
+}
+
+.content {
+  background-image: url(img/pattern4.jpg);
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 1000px;
+}
+
+.title {
+  padding-top: 3rem;
+}
+
+.title h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
 }

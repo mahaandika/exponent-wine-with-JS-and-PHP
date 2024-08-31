@@ -45,7 +45,34 @@ $product = show("SELECT * FROM product WHERE id = $id")[0];
     <main>
       <section class="content">
         <div class="title">
-          <h1><?= $product["nama"] ?></h1>
+          <h1>product detail</h1>
+        </div>
+
+        <div class="detail-content container">
+          <div class="row">
+            <div class="col-lg-5 img">
+              <img src="img/<?= $product["gambar"] ?>" alt="">
+            </div>
+
+            <div class="col-lg-6 desc-con">
+              <div class="desc">
+                <div class="name">
+                  <h3>product name :</h3>
+                  <p><?= $product["nama"] ?></p>
+                </div>
+
+                <div class="product-desc">
+                  <h3>description :</h3>
+                  <p><?= $product["deskripsi"] ?></p>
+                </div>
+
+                <div class="price">
+                  <h3>price :</h3>
+                  <p><?= $product["harga"] ?></p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>

@@ -34,11 +34,10 @@
   object-fit: cover;
   top: 0;
   left: 0;
-  height: 1000px;
 }
 
 .title {
-  padding-top: 3rem;
+  padding: 3rem;
 }
 
 .title h1 {
@@ -46,4 +45,135 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: white;
+  text-transform: capitalize;
+}
+
+.detail-content {
+  margin-right: 8rem;
+}
+
+.img img {
+  width: 400px;
+}
+
+.desc {
+  margin-top: 2rem;
+  color: white;
+  backdrop-filter: blur(20px);
+}
+
+.name,
+.product-desc,
+.price h3 {
+  text-transform: capitalize;
+  padding: 20px 20px 0 20px;
+}
+
+.price p {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+  .detail-content {
+    margin-right: 3rem;
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .detail-content {
+    margin-right: 7rem;
+    padding-left: 3rem;
+  }
+
+  .name,
+  .product-desc,
+  .price h3 {
+    padding: 20px 20px 0 40px;
+  }
+
+  .price p {
+    padding-left: 40px;
+  }
+
+  .desc-con {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .img img {
+    margin-left: 3.8rem;
+  }
+
+  .desc-con {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .desc-con {
+    width: 38rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .img img {
+    width: 350px;
+  }
+
+  .desc-con {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .img img {
+    width: 300px;
+  }
+
+  .desc-con {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .img img {
+    width: 250px;
+  }
+
+  .desc-con {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .desc-con {
+    width: 18rem;
+    margin-right: -6rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .img img {
+    width: 200px;
+  }
+
+  .desc-con {
+    width: 17rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .desc-con {
+    width: 18rem;
+    margin-right: -50px;
+  }
+
+  .desc-con p {
+    width: 10rem;
+  }
 }

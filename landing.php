@@ -22,7 +22,7 @@ $products = show("SELECT * FROM product");
   <body>
     <header>
       <section class="banner">
-        <img src="img/banner3.jpg" alt="" />
+        <img src="img/banner3.jpg" alt="" id="home" />
       </section>
 
       <nav class="navbar navbar-expand-lg fixed-top">
@@ -47,18 +47,20 @@ $products = show("SELECT * FROM product");
                 <a
                   class="nav-link active text-light fs-5"
                   aria-current="page"
-                  href="#"
+                  href="#home"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light fs-5" href="#">About</a>
+                <a class="nav-link text-light fs-5 actived" href="#about"
+                  >About</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light fs-5" href="#">Product</a>
+                <a class="nav-link text-light fs-5" href="#product">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light fs-5" href="#">Contact</a>
+                <a class="nav-link text-light fs-5" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -75,7 +77,7 @@ $products = show("SELECT * FROM product");
     </header>
 
     <main>
-      <section class="about-us container">
+      <section class="about-us container" id="about">
         <h1 class="about-title">the exponent wine</h1>
         <div class="about-detail row gx-5 gy-3">
           <div class="about-img col-lg-5">
@@ -142,67 +144,67 @@ $products = show("SELECT * FROM product");
             </p>
           </div>
         </div>
+
+        <section class="review container">
+          <h1 class="review-title">what people say about us</h1>
+          <div class="review-detail row row-cols-1 row-cols-md-3 g-4">
+            <div class="col card-first">
+              <div class="card h-100">
+                <div class="card-body text-bg-dark">
+                  <h5 class="card-title">King Of King</h5>
+                  <p class="card-text">
+                    The Exponent Wine delivers perfection in every bottle.
+                    Simply outstanding
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary"
+                    >Last updated 1 month ago</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col card-second">
+              <div class="card h-100">
+                <div class="card-body text-bg-dark">
+                  <h5 class="card-title">Agung Andika</h5>
+                  <p class="card-text">
+                    Incredible wines with exceptional taste. Highly recommended!
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary"
+                    >Last updated 1 week ago</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col card-third">
+              <div class="card h-100">
+                <div class="card-body text-bg-dark">
+                  <h5 class="card-title">Widya Anastasya</h5>
+                  <p class="card-text">
+                    Absolutely love The Exponent Wine. A must-try for all wine
+                    lovers!
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary"
+                    >Last updated 3 days ago</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reservation-btn">
+            <div class="col d-flex flex-row mt-5 justify-content-center">
+              <button>make a reservation</button>
+            </div>
+          </div>
+        </section>
       </section>
 
-      <section class="review container">
-        <h1 class="review-title">what people say about us</h1>
-        <div class="review-detail row row-cols-1 row-cols-md-3 g-4">
-          <div class="col card-first">
-            <div class="card h-100">
-              <div class="card-body text-bg-dark">
-                <h5 class="card-title">King Of King</h5>
-                <p class="card-text">
-                  The Exponent Wine delivers perfection in every bottle. Simply
-                  outstanding
-                </p>
-              </div>
-              <div class="card-footer">
-                <small class="text-body-secondary"
-                  >Last updated 1 month ago</small
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col card-second">
-            <div class="card h-100">
-              <div class="card-body text-bg-dark">
-                <h5 class="card-title">Agung Andika</h5>
-                <p class="card-text">
-                  Incredible wines with exceptional taste. Highly recommended!
-                </p>
-              </div>
-              <div class="card-footer">
-                <small class="text-body-secondary"
-                  >Last updated 1 week ago</small
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col card-third">
-            <div class="card h-100">
-              <div class="card-body text-bg-dark">
-                <h5 class="card-title">Widya Anastasya</h5>
-                <p class="card-text">
-                  Absolutely love The Exponent Wine. A must-try for all wine
-                  lovers!
-                </p>
-              </div>
-              <div class="card-footer">
-                <small class="text-body-secondary"
-                  >Last updated 3 days ago</small
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="reservation-btn">
-          <div class="col d-flex flex-row mt-5 justify-content-center">
-            <button>make a reservation</button>
-          </div>
-        </div>
-      </section>
-
-      <section class="product">
+      <section class="product" id="product">
         <h1 class="product-title">our product</h1>
         <section class="product-list container">
           <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -227,7 +229,7 @@ $products = show("SELECT * FROM product");
         </section>
       </section>
 
-      <section class="contact-bg">
+      <section class="contact-bg" id="contact">
         <section class="contact">
           <div class="container">
             <h1 class="contact-title">contact us</h1>

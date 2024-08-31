@@ -126,7 +126,7 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: 800;
-  padding-top: 4rem;
+  padding-top: 6.5rem;
   margin-top: 7rem;
 }
 
@@ -253,14 +253,17 @@ footer {
 
 .foot-location i {
   color: white;
+  padding-left: 2rem;
 }
 
 .foot-location a {
   font-family: "Poppins", sans-serif;
   color: white;
   text-decoration: none;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
   margin-bottom: 1.5rem;
+  text-align: center;
+  padding-right: 2rem;
 }
 
 .foot-icon a {
@@ -279,6 +282,8 @@ footer {
   text-transform: capitalize;
   margin-top: 2rem;
   margin-bottom: 5rem;
+  text-align: center;
+  padding: 0 2rem;
 }
 
 .developer {
@@ -290,6 +295,15 @@ footer {
 .developer:hover {
   color: white;
   transition: all 0.5s;
+}
+
+.actived {
+  color: #d29a5a;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 100px;
 }
 
 @media screen and (max-width: 1200px) {

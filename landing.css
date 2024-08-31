@@ -297,13 +297,38 @@ footer {
   transition: all 0.5s;
 }
 
-.actived {
-  color: #d29a5a;
+.front,
+.back {
+  backface-visibility: hidden;
+  transition: transform 0.5s linear 0s;
 }
 
-.hidden {
-  visibility: hidden;
-  height: 100px;
+.back {
+  position: absolute;
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.card:hover .front {
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.back img {
+  width: 420px;
+  height: 700px;
+}
+
+.nav-link {
+  transition: all 0.5;
+  color: white;
+}
+
+.nav-link:hover {
+  color: #d29a5a;
+  transition: all 0.5s;
 }
 
 @media screen and (max-width: 1200px) {

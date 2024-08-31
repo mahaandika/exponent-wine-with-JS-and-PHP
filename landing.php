@@ -44,23 +44,18 @@ $products = show("SELECT * FROM product");
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a
-                  class="nav-link active text-light fs-5"
-                  aria-current="page"
-                  href="#home"
+                <a class="nav-link fs-5" aria-current="page" href="#home"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light fs-5 actived" href="#about"
-                  >About</a
-                >
+                <a class="nav-link fs-5 actived" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light fs-5" href="#product">Product</a>
+                <a class="nav-link fs-5" href="#product">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light fs-5" href="#contact">Contact</a>
+                <a class="nav-link fs-5" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -72,7 +67,7 @@ $products = show("SELECT * FROM product");
         <p class="banner-desc">
           Create Memorable Moments with Exceptional Wine
         </p>
-        <button class="see-more">see more</button>
+        <a href="#about"><button class="see-more">see more</button></a>
       </section>
     </header>
 
@@ -198,7 +193,7 @@ $products = show("SELECT * FROM product");
           </div>
           <div class="reservation-btn">
             <div class="col d-flex flex-row mt-5 justify-content-center">
-              <button>make a reservation</button>
+              <a href="#contact"><button>make a reservation</button></a>
             </div>
           </div>
         </section>
@@ -211,16 +206,22 @@ $products = show("SELECT * FROM product");
             <?php foreach($products as $product) : ?>
             <div class="col">
               <div class="card h-100 product-card">
-                <img src="img/<?= $product["gambar"] ?>" class="card-img-top"
-                alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title"><?= $product["nama"] ?></h5>
-                  <p class="card-text">
-                    <?= $product["deskripsi"] ?>
-                  </p>
-                  <div class="price d-flex justify-content-center">
-                    <button>discover</button>
+                <div class="front">
+                  <img src="img/<?= $product["gambar"] ?>" class="card-img-top"
+                  alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title"><?= $product["nama"] ?></h5>
+                    <p class="card-text">
+                      <?= $product["deskripsi"] ?>
+                    </p>
                   </div>
+                </div>
+
+                <div class="price d-flex justify-content-center">
+                  <button>discover</button>
+                </div>
+                <div class="back">
+                  <img src="img/<?= $product["gambar"] ?>" alt="..." />
                 </div>
               </div>
             </div>

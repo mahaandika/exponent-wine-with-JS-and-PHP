@@ -290,6 +290,7 @@ footer {
   cursor: pointer;
   color: #d29a5a;
   transition: all 0.5s;
+  text-decoration: none;
 }
 
 .developer:hover {

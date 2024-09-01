@@ -410,4 +410,8 @@ footer {
   .card-first {
     display: none;
   }
+
+  .reservation-btn button {
+    width: 15rem;
+  }
 }

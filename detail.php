@@ -70,10 +70,24 @@ $product = show("SELECT * FROM product WHERE id = $id")[0];
                   <h3>price :</h3>
                   <p><?= $product["harga"] ?></p>
                 </div>
+
+                <div class="detail-reserve">
+                  <div class="col d-flex flex-row mt-5 justify-content-center">
+                    <a href="landing.php#contact"
+                      ><button>make a reservation</button></a
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
+
+      <section class="footer">
+        <?php
+        include "footer.php";
+        ?>
       </section>
     </main>
   </body>

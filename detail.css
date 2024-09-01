@@ -34,6 +34,7 @@
   object-fit: cover;
   top: 0;
   left: 0;
+  padding-bottom: 5rem;
 }
 
 .title {
@@ -71,6 +72,29 @@
 
 .price p {
   padding-left: 20px;
+}
+
+.detail-reserve {
+  padding-bottom: 3rem;
+}
+
+.detail-reserve button {
+  font-family: "Poppins", sans-serif;
+  width: 25rem;
+  height: 3.5rem;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  background-color: transparent;
+  transition: all 0.5s;
+  border: 1px solid #d29a5a;
+  color: white;
+}
+
+.detail-reserve button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 
 @media screen and (max-width: 1400px) {
@@ -138,6 +162,11 @@
   .desc-con {
     width: 20rem;
   }
+
+  .detail-reserve button {
+    font-size: 15px;
+    width: 250px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -148,12 +177,22 @@
   .desc-con {
     width: 20rem;
   }
+
+  .detail-reserve button {
+    font-size: 15px;
+    width: 200px;
+  }
 }
 
 @media screen and (max-width: 412px) {
   .desc-con {
     width: 18rem;
     margin-right: -6rem;
+  }
+
+  .detail-reserve button {
+    font-size: 15px;
+    width: 200px;
   }
 }
 
@@ -164,6 +203,15 @@
 
   .desc-con {
     width: 17rem;
+  }
+
+  .desc p {
+    font-size: 15px;
+  }
+
+  .detail-reserve button {
+    font-size: 15px;
+    width: 200px;
   }
 }
 
